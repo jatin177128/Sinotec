@@ -246,3 +246,24 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Built with ❤️ for Sino-Tec India - Your trusted partner in electrical safety solutions.**
+/**
+ * ContactPage component renders a contact form allowing users to send messages via email.
+ * Utilizes EmailJS for client-side email delivery without a backend.
+ *
+ * Features:
+ * - Collects user name, email, and message.
+ * - Validates input fields before submission.
+ * - Sends form data using EmailJS service.
+ * - Displays success or error notifications based on email delivery status.
+ *
+ * Dependencies:
+ * - emailjs-com: For sending emails directly from the client.
+ * - React: For component structure and state management.
+ *
+ * Usage:
+ * Import and include <ContactPage /> in your application to provide a contact form.
+ *
+ * EmailJS Integration:
+ * - Requires EmailJS account and configuration (service ID, template ID, user ID).
+ * - Ensure to keep sensitive keys secure and not exposed in public repositories.
+ */
