@@ -20,7 +20,7 @@ const WhyChooseUsSection = () => {
       icon: Award,
       title: "2+ Years of Excellence",
       description: "Over a decade and a half of proven expertise in electrical safety solutions across diverse industries.",
-      highlight: "500+ Projects Completed"
+      highlight: "1000+ Earthing Completed"
     },
     {
       icon: Shield,
@@ -37,13 +37,13 @@ const WhyChooseUsSection = () => {
     {
       icon: Target,
       title: "Custom Solutions",
-      description: "Tailored electrical safety solutions designed specifically for your industry and operational requirements.",
+      description: "Tailored electrical earthing solutions designed specifically for your industry and operational requirements.",
       highlight: "Bespoke Design"
     },
     {
       icon: TrendingUp,
       title: "Proven Track Record",
-      description: "Successful implementations across manufacturing, oil & gas, telecommunications, and commercial sectors.",
+      description: "Successful implementations across manufacturing  and commercial sectors.",
       highlight: "99% Success Rate"
     }
   ];
@@ -77,21 +77,15 @@ const WhyChooseUsSection = () => {
 
   const testimonials = [
     {
-      name: "Rajesh Kumar",
-      company: "Industrial Manufacturing Ltd.",
-      text: "Sino-Tec's lightning protection system saved our facility during the monsoon season. Exceptional service and reliability.",
+      text: "SinoTec's earthing system saved our facility during the monsoon season. Exceptional service and reliability.",
       rating: 5
     },
     {
-      name: "Priya Sharma",
-      company: "Tech Solutions Pvt. Ltd.",
       text: "Professional installation and ongoing maintenance support. Their team's expertise is unmatched in the industry.",
       rating: 5
     },
     {
-      name: "Amit Patel",
-      company: "Energy Corporation",
-      text: "Comprehensive electrical safety audit helped us achieve compliance. Highly recommend their services.",
+      text: "Comprehensive electrical earthing materials helped us achieve compliance. Highly recommend their services.",
       rating: 5
     }
   ];
@@ -107,7 +101,7 @@ const WhyChooseUsSection = () => {
             Why Choose Us
           </div>
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Your Trusted Partner in Electrical Safety
+            Your Trusted Partner in Electrical Earthing Solutions
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             With unmatched expertise, certified quality, and unwavering commitment to safety, 
@@ -202,7 +196,7 @@ const WhyChooseUsSection = () => {
         <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 rounded-2xl p-12 text-white text-center">
           <h3 className="text-3xl font-bold mb-4">Ready to Secure Your Electrical Systems?</h3>
           <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-            Join hundreds of satisfied clients who trust Sino-Tec India for their electrical safety needs. 
+            Join hundreds of satisfied clients who trust SinoTec India for their electrical earthing needs. 
             Get expert consultation and customized solutions today.
           </p>
           

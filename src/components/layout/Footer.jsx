@@ -15,7 +15,7 @@ export default function Footer() {
             <div className="flex items-center mb-4">
               <img className='h-10' src={Logo} alt="SI" />
               <div className="ml-3">
-                <h3 className="text-xl font-bold">SINO-TEC INDIA</h3>
+                <h3 className="text-xl font-bold">SINOTEC INDIA</h3>
                 <p className="text-sm text-orange-400 font-medium">ELECTRICAL EARTHING SERVICES</p>
               </div>
             </div>
@@ -27,9 +27,7 @@ export default function Footer() {
               <a href="https://www.facebook.com/profile.php?id=61578048068673" className="text-gray-400 hover:text-orange-400 transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors">
-                <Twitter size={20} />
-              </a>
+  
               <a href="https://www.linkedin.com/company/sinotec-india" className="text-gray-400 hover:text-orange-400 transition-colors">
                 <Linkedin size={20} />
               </a>
@@ -81,8 +79,8 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                 <Phone size={16} className="text-orange-400 mr-3 flex-shrink-0" />
-                <a href="tel:+91 7851853728" className="text-gray-300 text-sm hover:text-orange-400 transition-colors">
-                  +91 7851853728
+                <a href="tel:+91 7229947527" className="text-gray-300 text-sm hover:text-orange-400 transition-colors">
+                  +91 7229947527, +91 7851853728
                 </a>
               </div>
               <div className="flex items-center">
@@ -99,18 +97,13 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} Sino-Tec India. All rights reserved.
+              © {currentYear} SinoTec India. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link to="/contact" className="text-gray-400 hover:text-orange-400 text-sm transition-colors">
                 Get Quote
               </Link>
-              <a href="#" className="text-gray-400 hover:text-orange-400 text-sm transition-colors">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-gray-400 hover:text-orange-400 text-sm transition-colors">
-                Terms of Service
-              </a>
+
             </div>
           </div>
         </div>

@@ -52,7 +52,7 @@ export default function Header({ activeSection, scrollToSection }) {
                 </span>
               </div>
               <div className="ml-2">
-                <span className="text-xl font-bold text-gray-900">SINO-TEC INDIA</span>
+                <span className="text-xl font-bold text-gray-900">SINOTEC INDIA</span>
                 <div className="text-xs text-orange-500 font-medium">ELECTRICAL EARTHING SERVICES</div>
               </div>
             </Link>

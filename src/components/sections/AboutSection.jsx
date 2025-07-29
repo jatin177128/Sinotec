@@ -13,7 +13,7 @@ const AboutSection = () => {
           <div>
             <div className="inline-flex items-center bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <Shield className="w-4 h-4 mr-2" />
-              About Sino-Tec India
+              About SinoTec India
             </div>
             
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
@@ -21,9 +21,9 @@ const AboutSection = () => {
             </h2>
             
             <p className="text-lg text-gray-600 mb-6">
-              With over years of experience in electrical safety solutions, Sino-Tec India has established 
+              With over years of experience in electrical earthing solutions, SinoTec India has established 
               itself as a trusted partner for businesses and industries across India. We specialize in 
-              comprehensive earthing systems, lightning protection, and electrical safety audits.
+              comprehensive earthing systems, lightning protection, and electrical installations.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -45,7 +45,7 @@ const AboutSection = () => {
                 <CheckCircle className="w-6 h-6 text-green-500 mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-gray-900">Comprehensive Solutions</h3>
-                  <p className="text-gray-600">End-to-end electrical safety services</p>
+                  <p className="text-gray-600">End-to-end electrical earthing services</p>
                 </div>
               </div>
 

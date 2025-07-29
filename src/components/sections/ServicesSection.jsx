@@ -4,21 +4,9 @@ import { Zap, CheckCircle, ArrowRight, Shield, Settings, Globe, Wrench, Eye, Use
 const ServicesSection = () => {
   const services = [
     {
-      icon: Shield,
-      title: "Lightning Protection Systems",
-      description: "Advanced lightning protection solutions to safeguard your infrastructure from electrical surges and lightning strikes.",
-      features: [
-        "Lightning rod installation",
-        "Surge protection devices",
-        "Risk assessment studies",
-        "System maintenance"
-      ],
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=300&fit=crop"
-    },
-    {
       icon: Settings,
       title: "Earthing Systems",
-      description: "Comprehensive earthing solutions designed to ensure electrical safety and system reliability across all applications.",
+      description: "Comprehensive earthing solutions designed to ensure electrical earthing and system reliability across all applications.",
       features: [
         "Chemical earthing",
         "Pipe & plate earthing",
@@ -39,6 +27,18 @@ const ServicesSection = () => {
       ],
       image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=500&h=300&fit=crop"
     },
+    {
+      icon: Shield,
+      title: "Lightning Protection Systems",
+      description: "Advanced lightning protection solutions to safeguard your infrastructure from electrical surges and lightning strikes.",
+      features: [
+        "Lightning rod installation",
+        "Surge protection devices",
+        "Risk assessment studies",
+        "System maintenance"
+      ],
+      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=300&fit=crop"
+    }
    
   ];
 
@@ -51,11 +51,10 @@ const ServicesSection = () => {
             Our Services
           </div>
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Comprehensive Electrical Safety Solutions
+            Comprehensive Electrical Earthing Solutions
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From lightning protection to earthing systems, we provide complete electrical safety solutions 
-            tailored to your specific requirements.
+            We provide complete electrical earthing solutions tailored to your specific requirements.
           </p>
         </div>
 
@@ -106,7 +105,7 @@ const ServicesSection = () => {
           <div className="bg-gradient-to-r from-blue-900 to-blue-800 rounded-2xl p-12 text-white">
             <h3 className="text-3xl font-bold mb-4">Need Custom Electrical Solutions?</h3>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              Our expert team can design and implement tailored electrical safety solutions 
+              Our expert team can design and implement tailored electrical earthing solutions 
               for your specific industry requirements.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

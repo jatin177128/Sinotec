@@ -26,13 +26,13 @@ export default function HeroSection({ scrollToSection }) {
             </div>
 
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Electrical Safety
-              <span className="block text-orange-400">& Earthing</span>
+              Electrical 
+              <span className="block text-orange-400">Earthing</span>
               <span className="block">Experts</span>
             </h1>
 
             <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-              Sino-Tec India provides comprehensive electrical earthing and lightning protection services. 
+              SinoTec India provides comprehensive electrical earthing and lightning protection services. 
               Ensuring safety, reliability, and compliance for your electrical installations.
             </p>
 

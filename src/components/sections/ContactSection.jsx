@@ -114,14 +114,20 @@ const ContactSection = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      info: '+91 7851853728',
+      info: '+91 7229947527,+91 7851853728',
       description: 'Mon - Sat, 9:00 AM - 6:00 PM'
     },
     {
       icon: MapPin,
-      title: 'Visit Us',
+      title: 'Office Address',
       info: ' 3A/37, Gaurav path, UIT, Bhiwadi, Distt. Alwar - 301019 (Rajasthan)',
       description: 'Our office location'
+    },
+     {
+      icon: MapPin,
+      title: 'Factory Address',
+      info: 'J-1028, RIICO IID Khushkhera, Khaithal Tijara, Rajasthan.',
+      description: 'Our Factory location'
     },
     {
       icon: Clock,
@@ -141,7 +147,7 @@ const ContactSection = () => {
             Get In Touch
           </div>
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Contact <span className="text-blue-600">Sino-Tec India</span>
+            Contact <span className="text-blue-600">SinoTec India</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Ready to secure your electrical systems? Contact our experts for professional 
@@ -328,7 +334,7 @@ const ContactSection = () => {
 
             {/* Company Info Card */}
             <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl shadow-xl p-8 text-white">
-              <h3 className="text-2xl font-bold mb-4">Why Choose Sino-Tec India?</h3>
+              <h3 className="text-2xl font-bold mb-4">Why Choose SinoTec India?</h3>
               <div className="space-y-3">
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 mr-3 text-blue-200" />
