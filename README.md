@@ -228,22 +228,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Sino-Tec India**
 - **Industry**: Electrical Safety Solutions
 - **Specialization**: Earthing Systems & Lightning Protection
-- **Experience**: 15+ Years
+- **Experience**: 2+ Years
 - **Certification**: ISO 9001:2015
 
 ---
 
-## 🎨 Screenshots
-
-### Desktop View
-![Desktop About Section](screenshot-about-desktop.png)
-![Desktop Services Section](screenshot-services-desktop.png)
-
-### Mobile View
-![Mobile About Section](screenshot-about-mobile.png)
-![Mobile Services Section](screenshot-services-mobile.png)
-
----
 
 **Built with ❤️ for Sino-Tec India - Your trusted partner in electrical safety solutions.**
 /**
