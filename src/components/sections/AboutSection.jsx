@@ -21,7 +21,7 @@ const AboutSection = () => {
             </h2>
             
             <p className="text-lg text-gray-600 mb-6">
-              With over 15 years of experience in electrical safety solutions, Sino-Tec India has established 
+              With over years of experience in electrical safety solutions, Sino-Tec India has established 
               itself as a trusted partner for businesses and industries across India. We specialize in 
               comprehensive earthing systems, lightning protection, and electrical safety audits.
             </p>
@@ -48,17 +48,11 @@ const AboutSection = () => {
                   <p className="text-gray-600">End-to-end electrical safety services</p>
                 </div>
               </div>
-              <div className="flex items-start">
-                <CheckCircle className="w-6 h-6 text-green-500 mr-3 mt-1 flex-shrink-0" />
-                <div>
-                  <h3 className="font-semibold text-gray-900">24/7 Support</h3>
-                  <p className="text-gray-600">Round-the-clock technical assistance</p>
-                </div>
-              </div>
+
             </div>
             
             <button 
-              onClick={() => scrollToSection('contact')}
+              onClick={() => scrollToSection('why-choose-us')}
               className="bg-blue-900 hover:bg-blue-800 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center"
             >
               Learn More

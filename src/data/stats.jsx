@@ -1,11 +1,11 @@
 export const heroStats = [
   {
-    number: "500+",
-    label: "Projects Completed",
+    number: "1000+",
+    label: "Earthing Completed",
     description: "Successfully installed earthing systems across various industries"
   },
   {
-    number: "15+",
+    number: "2+",
     label: "Years Experience",
     description: "Trusted expertise in electrical safety and earthing solutions"
   },
@@ -15,8 +15,8 @@ export const heroStats = [
     description: "Proven track record of high-performance earthing installations"
   },
   {
-    number: "24/7",
-    label: "Emergency Support",
-    description: "Round-the-clock technical assistance and maintenance services"
-  }
+  number: "99%",
+  label: "First Contact Resolution",
+  description: "Most issues resolved in the first interaction by our expert team"
+  },
 ];

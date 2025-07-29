@@ -2,7 +2,7 @@ export const NAVIGATION_ITEMS = [
   { id: 'home', label: 'Home' },
   { id: 'services', label: 'Services' },
   { id: 'about', label: 'About Us' },
-  { id: 'contact', label: 'Contact Us' }
+  { id: 'contact', label: 'Contact Us' },
 ];
 
 export const BREAKPOINTS = {

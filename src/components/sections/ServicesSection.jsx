@@ -28,18 +28,6 @@ const ServicesSection = () => {
       image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=500&h=300&fit=crop"
     },
     {
-      icon: Eye,
-      title: "Electrical Safety Audits",
-      description: "Thorough electrical safety inspections and compliance audits to identify potential hazards and ensure regulatory compliance.",
-      features: [
-        "Safety compliance checks",
-        "Hazard identification",
-        "Risk mitigation plans",
-        "Certification support"
-      ],
-      image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=500&h=300&fit=crop"
-    },
-    {
       icon: Wrench,
       title: "Installation & Maintenance",
       description: "Professional installation services and ongoing maintenance programs to ensure optimal performance of electrical systems.",
@@ -51,30 +39,7 @@ const ServicesSection = () => {
       ],
       image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=500&h=300&fit=crop"
     },
-    {
-      icon: Globe,
-      title: "Industrial Solutions",
-      description: "Specialized electrical safety solutions for manufacturing plants, refineries, and heavy industrial applications.",
-      features: [
-        "Custom design solutions",
-        "Heavy-duty equipment",
-        "Industrial compliance",
-        "24/7 support"
-      ],
-      image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=500&h=300&fit=crop"
-    },
-    {
-      icon: Users,
-      title: "Consultation Services",
-      description: "Expert consultation and training services to help your team understand and implement electrical safety best practices.",
-      features: [
-        "Technical consultation",
-        "Safety training programs",
-        "System design review",
-        "Compliance guidance"
-      ],
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500&h=300&fit=crop"
-    }
+   
   ];
 
   return (
@@ -145,12 +110,14 @@ const ServicesSection = () => {
               for your specific industry requirements.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
-                Get Free Consultation
-              </button>
-              <button className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-all duration-300">
-                Download Brochure
-              </button>
+              <a 
+  href="https://drive.google.com/file/d/1gsD5MRrwh6M-_oXORbxVIKpV78DjqXIr/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-all duration-300 text-center"
+>
+  Download Brochure
+</a>
             </div>
           </div>
         </div>

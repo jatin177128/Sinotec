@@ -36,7 +36,7 @@ export default function HeroSection({ scrollToSection }) {
               Ensuring safety, reliability, and compliance for your electrical installations.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 ">
               <Button
                 variant="primary"
                 size="lg"
@@ -47,13 +47,13 @@ export default function HeroSection({ scrollToSection }) {
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
 
-              <Button
+              {/* <Button
                 variant="outline"
                 size="lg"
                 onClick={() => scrollToSection('contact')}
               >
                 Get Quote
-              </Button>
+              </Button> */}
             </div>
           </div>
 
